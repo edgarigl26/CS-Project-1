@@ -71,8 +71,9 @@ The playbook implements the following tasks:
 - ...
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
-
-
+CONTAINER ID   IMAGE          COMMAND                  CREATED       STATUS       PORTS                                                                              NAMES
+4f17587cc387   sebp/elk:761   "/usr/local/bin/star…"   11 days ago   Up 2 hours   0.0.0.0:5044->5044/tcp, 0.0.0.0:5601->5601/tcp, 0.0.0.0:9200->9200/tcp, 9300/tcp   elk
+Images/SudoDockerPs.png
 
 Target Machines & Beats
 This ELK server is configured to monitor the following machines: Web1 and Web2 VM
@@ -80,7 +81,7 @@ At 10.0.0.6 and 10.0.0.7
 
 We have installed the following Beats on these machines:
 - Filebeat: This detects changes in the filesystem. Which we will use to collect Apache logs
--Metricbeat: Metricbeat detects changes in system metrics
+-Metricbeat: Metricbeat detects changes in system metrics. It will collect metrics from the operating system and from services running on the server
 -Packetbeat
 
 These Beats allow us to collect the following information from each machine:
