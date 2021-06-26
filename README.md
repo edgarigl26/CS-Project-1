@@ -79,7 +79,7 @@ The playbook implements the following tasks:
 -A Docker ELK container is downloaded 
 
 
-![](Linux/anasible_host_file.jpg.png)
+![](Linux/elk_playbook.yml.jpg.png)
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
