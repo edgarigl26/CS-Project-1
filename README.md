@@ -73,11 +73,10 @@ The playbook implements the following tasks:
 -More memory is added to the machines 
 -A Docker ELK container is downloaded 
 -Docker is booted
-
+/CS-Project-1/Linux/ELK_Docker_ps.jpg.png
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
-CONTAINER ID   IMAGE          COMMAND                  CREATED       STATUS       PORTS                                                                              NAMES
-4f17587cc387   sebp/elk:761   "/usr/local/bin/star…"   11 days ago   Up 2 hours   0.0.0.0:5044->5044/tcp, 0.0.0.0:5601->5601/tcp, 0.0.0.0:9200->9200/tcp, 9300/tcp   elk
-Images/SudoDockerPs.png
+/CS-Project-1/Linux?
+
 
 Target Machines & Beats
 This ELK server is configured to monitor the following machines: Web1 and Web2 VM
