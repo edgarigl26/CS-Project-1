@@ -67,18 +67,23 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 
 The playbook implements the following tasks:
 -The hosts and users are designated
--Docker is installed
--pip3 is installed
--Docker Python module is installed
--More memory is added to the machines 
--A Docker ELK container is downloaded 
--Docker is booted
 
-![](Linux/ELK_Docker_ps.jpg.png)
+-Docker is installed
+
+-pip3 is installed
+
+-Docker Python module is installed
+
+-More memory is added to the machines 
+
+-A Docker ELK container is downloaded 
+
+
+![](Linux/anasible_host_file.jpg.png)
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-
+![](Linux/ELK_Docker[s.jpg.png)
 
 Target Machines & Beats
 This ELK server is configured to monitor the following machines: Web1 and Web2 VM
