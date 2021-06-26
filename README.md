@@ -73,9 +73,11 @@ The playbook implements the following tasks:
 -More memory is added to the machines 
 -A Docker ELK container is downloaded 
 -Docker is booted
-/CS-Project-1/Linux/ELK_Docker_ps.jpg.png
+
+![](Linux/ELK_Docker_ps.jpg.png)
+
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
-/CS-Project-1/Linux?
+
 
 
 Target Machines & Beats
