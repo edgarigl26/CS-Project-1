@@ -101,15 +101,7 @@ Filebeat detects changes in the filesystem. Which we will use to collect Apache 
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
+![](Linux/ansible_host_file.jpg.png)
 - Copy the installation playbook file to a .yml file in your /etc/ansible directory inside the ansible container.
 - Update the host file to in the ansible to include the correct host and groups and add ansible_python_interpreter=/usr/bin/bash
--
 - Run the playbook, and navigate to http://40.86.163.182:506/app/kibana to check thatht the installation worked as expected.
-
-_TODO: Answer the following questions to fill in the blanks:_
-- Which file is the playbook?
--Where do you copy it?_
-- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
-- _Which URL do you navigate to in order to check that the ELK server is running?
-
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
