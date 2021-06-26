@@ -1,5 +1,5 @@
 # CS-Project-1
-Automated ELK Stack Deployment
+### Automated ELK Stack Deployment
 
 The files in this repository were used to configure the network depicted below.
 
@@ -18,7 +18,7 @@ This document contains the following details:
 - How to Use the Ansible Build
 
 
-Description of the Topology
+### Description of the Topology
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
@@ -42,7 +42,7 @@ The configuration details of each machine may be found below.
 | ELK      | Monitoring | 10.1.0.4   | Linux |
 
 
-Access Policies
+### Access Policies
 
 The machines on the internal network are not exposed to the public Internet. 
 
@@ -60,7 +60,7 @@ A summary of the access policies in place can be found in the table below.
 | ELK      | no                  | 10.0.0.5-510         |
 
 
-Elk Configuration
+### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
 - What is the main advantage of automating configuration with Ansible? The main advantage is that it 100% automates the process which saves you time from having to do it manually and you are able to shift focus elsewhere.
@@ -85,7 +85,7 @@ The following screenshot displays the result of running `docker ps` after succes
 
 ![](Linux/ELK_Docker_ps.jpg.png)
 
-Target Machines & Beats
+###Target Machines & Beats
 This ELK server is configured to monitor the following machines: Web1 and Web2 VM
 -Web-1 VM 10.0.0.6
 -Web-2 VM 10.0.0.7
